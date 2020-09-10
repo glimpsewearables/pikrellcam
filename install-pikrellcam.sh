@@ -2,11 +2,6 @@
 
 PGM=`basename $0`
 
-if [ `id -u` == 0 ]
-then
-    echo -e "$PGM should not be run as root.\n"
-    exit 1
-fi
 
 bad_install()
 	{
